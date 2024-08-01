@@ -1,0 +1,12 @@
+An airport database management system (DBMS) is designed to efficiently handle, organize, and retrieve information relevant to airport operations. 
+This can include a variety of data such as flight schedules, passenger information, baggage handling, aircraft maintenance, crew schedules, and security protocols.
+
+Components of Airport Database Management System
+
+Flight Schedules: Arrival and departure times, delays, cancellations, and gate assignments.
+Flight Status: Real-time updates on the status of flights, including boarding, takeoff, landing, and taxiing.
+Passenger Records: Personal details, travel history, frequent flyer information, and special requirements.
+Airports: Location,Airport Names,Airlines.
+Employee Details
+
+Queries to find insights from the database.
