@@ -1,0 +1,14 @@
+Online bookstore database management involves organizing and controlling the data necessary for the operation of an online bookstore.
+This includes managing information about books, authors, customers, orders, and inventory.
+Here are the key components and functionalities involved in managing such a database:
+1. Database Design (DDL - Data Definition Language):
+   - Step 1: Identify and define the entities (tables) needed for the bookstore database. Examples include:
+     - Books (ISBN, title, author, publisher, genre, price, etc.)
+     - Customers (customer_id, name, address, email, etc.)
+     - Orders (order_id, customer_id, order_date, status, total_amount, etc.)
+     - Order Details (order_id, ISBN, quantity, price)
+     - Employees (employee_id, name, position, etc.)
+     - Categories, Publishers, Reviews, etc.
+2. Populating Data (DML - Data Manipulation Language):
+   - Step 4: Insert sample data into the tables to populate them (`INSERT INTO` statements).
+
