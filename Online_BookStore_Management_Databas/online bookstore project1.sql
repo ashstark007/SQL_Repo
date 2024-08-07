@@ -32,7 +32,7 @@ alter table books modify column author varchar(200);
  update books set stock='out of stock' where publisher_id=104;
  
 insert into books values('978-0-321-94786-4','Learning Mobile App Development','Jakob Iversen',101,'technology',1500),
-						('978-0-321-94786-5','It technology','James anderson',102,'technology',1520),
+			('978-0-321-94786-5','It technology','James anderson',102,'technology',1520),
                         ('978-0-321-94786-6','Medicine Inventory','Jhimmy shergil',103,'paramedical',1050),
                         ('978-0-321-94786-7','Hospital Administration','Atish Jhangania',104,'medical',1560),
                         ('978-0-321-94786-8','Nursing procedure','David Lob',105,'Nursing council',1600),
@@ -47,7 +47,7 @@ create table customers (customer_id int, name varchar (20), address varchar (20)
 create table orders(order_id int, customer_id int,order_date date, status varchar(60), total_amount int);
 
 insert into orders values(401,1,'2022-05-04','pending',3000),
-						(402,2,'2021-06-10','paid',2500),
+			(402,2,'2021-06-10','paid',2500),
                         (403,3,'2020-03-12','paid',5000),
                         (404,4,'2019-05-02','pending',3500),
                         (405,5,'2023-10-21','paid',6000),
@@ -77,7 +77,7 @@ alter table order_details modify ISBN varchar(50);
 truncate order_details;
 
 insert into order_details values(402,'978-0-321-94786-5',4,1850),
-								(404,'978-0-321-94786-6',5,1890),
+				(404,'978-0-321-94786-6',5,1890),
                                 (405,'978-0-321-94786-7',6,1900),
                                 (403,'978-0-321-94786-6',8,1950),
                                 (402,'978-0-321-94786-10',7,2000),
@@ -86,7 +86,7 @@ insert into order_details values(402,'978-0-321-94786-5',4,1850),
 create table employees(employee_id int, name varchar(20),position varchar(40));
 
 insert into employees values(301, 'sayali joshi','hr executive'),
-							(302, 'Akash mhatre','business executive'),
+			    (302, 'Akash mhatre','business executive'),
                             (303, 'Pratik kulkarni','marking manager'),
                             (304, 'Asmina khatun','Port flio executive'),
                             (305, 'Amrita Joshi','hr manager'),
@@ -103,7 +103,7 @@ alter table categories drop column name;
 alter table categories modify column genre varchar(30);
 
 insert into categories values(501, 'technology'),
-							(502, 'medical'),
+			    (502, 'medical'),
                             (503, 'paramedical'),
                             (504, 'nursing'),
                             (505, 'Agribusiness'),
