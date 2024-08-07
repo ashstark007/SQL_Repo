@@ -10,5 +10,34 @@ Here are the key components and functionalities involved in managing such a data
      - Employees (employee_id, name, position, etc.)
      - Categories, Publishers, Reviews, etc.
 2. Populating Data (DML - Data Manipulation Language):
-   - Step 4: Insert sample data into the tables to populate them (`INSERT INTO` statements).
+   - Step 2: Insert sample data into the tables to populate them (`INSERT INTO` statements).
+3. Querying Data (DQL - Data Query Language):
+   - Step 3: Write SQL queries to retrieve information such as:
+     - List of books by a specific author.
+     - Total sales by month.
+     - Customers who purchased more than a certain amount.
+     - Best-selling books.
+     - Pending orders.
+     - etc.
+
+4. Advanced Queries and Subqueries:
+   - Step 4: Incorporate subqueries to solve complex queries. For example:
+     - Find customers who have placed orders exceeding a certain total amount.
+     - Identify books that have never been ordered.
+
+5. Using Joins:
+   - Step 6: Utilize different types of joins (`INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`) to combine data from multiple tables. For example:
+     - Retrieve order details along with customer information.
+     - List books along with their publishers.
+
+6. Creating Views:
+   - Step 7: Design and create views for commonly used queries. For instance:
+     - Create a view to show all orders along with customer details.
+     - Create a view for books that are currently in stock.
+
+7. Testing and Optimization:
+   - Step 8: Test the database queries and ensure they return accurate results.
+   - Step 9: Optimize queries for better performance if necessary (indexing, query restructuring).
+
+
 
