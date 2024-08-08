@@ -1,0 +1,36 @@
+SQL (Structured Query Language) is a standard programming language used to manage and manipulate relational databases. 
+It is widely used in database management systems (DBMS) such as MySQL, PostgreSQL, Oracle, and SQL Server. 
+SQL provides a way to interact with the database to perform various operations, including querying data, updating records, and managing database structures.
+
+In this file you will find all the basic sql commands:
+
+1.DDL (Data Defenition Language): is a subset of SQL used to define and manage database structures. DDL commands are used to create, modify, and delete database objects such as tables, indexes, and schemas.
+    - CREATE
+    - DROP
+    - ALTER
+    - TRUNCATE
+2.DML(Data Manipulation Language): is a subset of SQL used for managing data within database objects.
+    - INSERT
+    - UPDATE
+    - DELETE
+3.DQL(Data Query Language): is a subset of SQL that is used to query the database and retrieve data from one or more tables.
+    - SELECT
+4.Constraints: in SQL are rules enforced on data columns in a table to ensure the accuracy, reliability, and integrity of the data. 
+    - PRIMARY KEY
+    - FOREIGN KEY
+    - DEFAULT
+    - UNIQUE
+    - CHECK
+    - NOT NULL
+5.JOINS: Joins in SQL are used to combine rows from two or more tables based on a related column between them. 
+   - INNER JOIN
+   - LEFT JOIN
+   - RIGHT JOIN
+   - FULL JOIN
+   - CROSS JOIN
+   - LEFT ANTI JOIN
+   - RIGHT ANTI JOIN
+6. SUBQUERY: A subquery, also known as an inner query or nested query, is a query within another SQL query. 
+    Subqueries can be used in various ways to perform more complex queries. 
+    They can be nested inside SELECT, INSERT, UPDATE, or DELETE statements, or inside another subquery.
+7. Date and Time Data Types
